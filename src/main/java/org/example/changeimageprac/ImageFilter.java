@@ -12,7 +12,7 @@ import java.util.UUID;
 public class ImageFilter {
     public static String getRoute() throws IOException {
         //임시적으로 절대경로 사용했습니다
-        String imagePath = "C:\\Users\\samsung\\OneDrive\\바탕 화면\\c-back\\change-image-prac\\build\\resources\\main\\static\\image\\babyneung_1f.png";
+        String imagePath = "-절대경로-babyneung_1f.png";
 
         // 이미지 로드
         BufferedImage image = ImageIO.read(new File(imagePath));
